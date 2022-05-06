@@ -1,14 +1,14 @@
 # SATD Dataset in Issue Tracking Systems
 
 ##### Authors: Yikun Li, Mohamed Soliman, Paris Avgeriou
-
-## Description of this dataset:
+##
+### Description of this dataset:
 
 This dataset contains 23,180 issue sections (that includes 3,277 SATD issue sections) from seven large open-source
 projects from two ecosystems: Apache and Google. We call each part of an issue (i.e. summary, description or comment) as
 issue section. The number of different types/indicators of SATD is shown as below:
 
-| Type of SATD       | Indicator of SATD                                     | Definition                                                                                                                                                                                            | Number |
+| Type of SATD       | Indicator                                             | Definition                                                                                                                                                                                            | Number |
 |--------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Architecture debt  | Violation of modularity                               | Because shortcuts were taken, multiple modules became inter-dependent, while they should be independent.                                                                                              | 46     |
 |                    | Using obsolete technology                             | Architecturally-significant technology has become obsolete.                                                                                                                                           | 41     |
