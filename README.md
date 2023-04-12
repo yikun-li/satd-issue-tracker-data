@@ -1,4 +1,4 @@
-# SATD Dataset in Issue Tracking Systems (Replication Package for Identifying Self-Admitted Technical Debt in Issue Tracking Systems using Machine Learning)
+# SATD Dataset in Issue Tracking Systems
 
 ##### Authors: Yikun Li, Mohamed Soliman, Paris Avgeriou
 
@@ -53,11 +53,11 @@ The package contains a **trained SATD detector model** that can be used for furt
 
 ### Identifying SATD
 
-1. Download the model weight and word embedding files from [LINK](https://doi.org/10.5281/zenodo.6783762).
+1. Download the model weight and word embedding files from [LINK](https://zenodo.org/record/7821209).
 2. Replace the file path with the real path and run the following command:
 
 ```bash
-python3 td_detector.py 
+python3 satd_detector.py 
       --weight_file "{PATH}/satd_detector_for_issues.hdf5" 
       --word_embedding_file "{PATH}/fasttext_issue_300.bin" 
 ```
@@ -104,15 +104,15 @@ Please adequately refer to this paper any time this dataset is being used. If yo
 helps your research, we encourage you to cite the following paper in your publication:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2202.02180,
-  doi = {10.48550/ARXIV.2202.02180},
-  url = {https://arxiv.org/abs/2202.02180},
-  author = {Li, Yikun and Soliman, Mohamed and Avgeriou, Paris},
-  keywords = {Software Engineering (cs.SE), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Identifying Self-Admitted Technical Debt in Issue Tracking Systems using Machine Learning},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@article{li2022identifying,
+  title={Identifying self-admitted technical debt in issue tracking systems using machine learning},
+  author={Li, Yikun and Soliman, Mohamed and Avgeriou, Paris},
+  journal={Empirical Software Engineering},
+  volume={27},
+  number={6},
+  pages={131},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
