@@ -105,14 +105,16 @@ helps your research, we encourage you to cite the following paper in your public
 
 ```
 @article{li2022identifying,
-  title={Identifying self-admitted technical debt in issue tracking systems using machine learning},
-  author={Li, Yikun and Soliman, Mohamed and Avgeriou, Paris},
-  journal={Empirical Software Engineering},
-  volume={27},
-  number={6},
-  pages={131},
-  year={2022},
-  publisher={Springer}
+  author = {Li, Yikun and Soliman, Mohamed and Avgeriou, Paris},
+  title = {Identifying self-admitted technical debt in issue tracking systems using machine learning},
+  journal = {Empirical Software Engineering},
+  year = 2022,
+  month = {Jul},
+  day = 10,
+  volume = 27,
+  number = 131,
+  issn = {1573-7616},
+  doi = {10.1007/s10664-022-10128-3},
 }
 ```
 
